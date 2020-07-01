@@ -1,0 +1,7 @@
+Database: MySQL
+File Extension:.sql
+
+Query:
+
+SELECT *
+FROM CITY;
