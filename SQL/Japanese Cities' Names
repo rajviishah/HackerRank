@@ -1,0 +1,10 @@
+Database: MySQL 
+File Extension:.sql 
+
+Problem: https://www.hackerrank.com/challenges/japanese-cities-name/problem
+
+Query: 
+
+SELECT NAME
+FROM CITY
+WHERE COUNTRYCODE='JPN';
