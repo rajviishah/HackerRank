@@ -1,6 +1,8 @@
 Database: MySQL
 File Extension:.sql
 
+Problem: https://www.hackerrank.com/challenges/select-all-sql/problem
+
 Query:
 
 SELECT *
