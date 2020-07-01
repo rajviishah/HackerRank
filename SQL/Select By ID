@@ -1,0 +1,8 @@
+Database: MySQL 
+File Extension:.sql  
+
+Query:
+
+SELECT *
+FROM CITY
+WHERE ID=1661;
