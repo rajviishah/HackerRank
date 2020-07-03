@@ -1,0 +1,21 @@
+Version: Python 3
+File extension: .py
+
+Problem: https://www.hackerrank.com/challenges/no-idea/problem
+
+Solution:
+
+n, m = input().split()
+sc_ar = input().split()
+
+A = set(input().split())
+B = set(input().split())
+
+print(sum([(i in A) - (i in B) for i in sc_ar]))
+
+Sample input: 4 2
+              1,2,3,4
+              2,4
+              4,5
+
+Sample output: 1
