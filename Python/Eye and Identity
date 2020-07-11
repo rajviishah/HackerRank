@@ -1,0 +1,26 @@
+Version: Python 3 
+File extension: .py 
+
+Problem: https://www.hackerrank.com/challenges/np-eye-and-identity/problem 
+
+Solution:
+
+import numpy as np
+'''
+N, M = map(int, input().split())
+if N==M:
+    arr = np.identity(N)
+else:
+    arr = np.eye((N,M), k=-1)
+
+
+np.set_printoptions(legacy='1.13')
+print(arr)
+'''
+
+n,m = map(int, input().split(' '))
+
+numpy.set_printoptions(sign=' ')
+
+print(numpy.eye(n,m))
+
