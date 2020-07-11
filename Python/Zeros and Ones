@@ -1,0 +1,13 @@
+Version: Python 3 
+File extension: .py 
+
+Problem: https://www.hackerrank.com/challenges/np-zeros-and-ones/problem 
+
+Solution:
+
+import numpy as np
+N = tuple(map(int, input().split()))
+arr_0 = np.zeros(N, dtype=int)
+arr_1 = np.ones(N, dtype=int)
+print(arr_0)
+print(arr_1)
